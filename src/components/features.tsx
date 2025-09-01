@@ -7,7 +7,7 @@ export default function Features() {
 
   return (
     <section
-      className="max-w-4xl mx-auto rounded-xl shadow-lg p-8 md:p-10"
+      className="max-w-6xl mx-auto rounded-xl shadow-lg p-8 md:p-10"
       style={{
         background: "linear-gradient(135deg, #4a3826, #1b140e)",
         color: "#e6d5b8",

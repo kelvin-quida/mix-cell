@@ -39,6 +39,7 @@ export default function About() {
 
   return (
     <motion.div
+      id="about"
       ref={containerRef}
       className="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-8 items-center"
     >

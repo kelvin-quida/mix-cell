@@ -1,6 +1,6 @@
 export default function Clients() {
   return (
-    <section className="w-full bg-gray-50 py-12">
+    <section className="w-full bg-gray-50 py-12" id="feedback">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-5xl font-bold text-gray-900 mb-12">
           O que os clientes dizem

@@ -9,7 +9,7 @@ import Tools from "@/components/tools";
 
 export default function Home() {
   return (
-    <main className="bg-brand-yellow min-h-screen">
+    <main className="min-h-screen max-w-screen overflow-hidden">
       {/* <Navbar /> */}
       <Hero />
       <About />

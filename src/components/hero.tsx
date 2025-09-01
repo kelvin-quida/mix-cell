@@ -20,13 +20,15 @@ export default function Hero() {
             <div className="flex justify-between mx-auto text-center md:text-left gap-44 items-center">
               <div className="flex flex-col gap-3">
                 <p className="">Bem-vindo à</p>
-                <h1 className="text-6xl font-bold uppercase">Mix Cell</h1>
+                <h1 className="max-md:text-4xl text-6xl font-bold uppercase">
+                  Mix Celulares
+                </h1>
                 <p className="text-lg">Especialista em todas as Marcas</p>
                 <button className="bg-green-500 text-white px-6 py-3 rounded-full">
                   Whatsapp
                 </button>
               </div>
-              <div className="">
+              <div className="hidden md:block">
                 <Image
                   src="/iphones.png"
                   alt="iphone"

@@ -11,17 +11,17 @@ export default function Navbar() {
       </div>
       <ul className="hidden md:flex gap-6 font-medium ">
         <li>
-          <a href="#">Serviços</a>
+          <Link href="#servicos">Serviços</Link>
         </li>
         <li>
-          <a href="#">Feedbacks</a>
+          <Link href="#feedback">Feedbacks</Link>
         </li>
         <li>
-          <a href="#">Sobre nos</a>
+          <Link href="#about">Sobre nos</Link>
         </li>
       </ul>
       <button className="bg-transparent text-black px-4 py-2 rounded-full border border-black hover:bg-black hover:text-white transition-colors">
-        Remorcourt
+        Orçamento grátis
       </button>
     </nav>
   );

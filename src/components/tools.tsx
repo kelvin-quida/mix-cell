@@ -4,13 +4,13 @@ import { useEffect, useState } from "react";
 export default function Tools() {
   const [bgPos, setBgPos] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setBgPos(window.scrollY / 9);
-    };
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setBgPos(window.scrollY / 20);
+  //   };
+  //   window.addEventListener("scroll", handleScroll, { passive: true });
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
 
   return (
     <div
