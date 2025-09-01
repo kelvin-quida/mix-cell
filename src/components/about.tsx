@@ -18,24 +18,24 @@ export default function About() {
   const opacity = useTransform(scrollYProgress, [0, 0.3], [0, 1]);
   const y = useTransform(scrollYProgress, [0, 0.3], [20, 0]);
 
-  useEffect(() => {
-    if (!isInView) return;
-    document.fonts.ready.then(() => {
-      if (!containerRef.current) return;
-      containerRef.current.style.visibility = "visible";
-      const { words } = splitText(titleRef.current!);
-      animate(
-        words,
-        { opacity: [0, 1], y: [20, 0] },
-        {
-          type: "spring",
-          duration: 3,
-          bounce: 0.5,
-          delay: stagger(0.05),
-        }
-      );
-    });
-  }, [isInView]);
+  // useEffect(() => {
+  //   if (!isInView) return;
+  //   document.fonts.ready.then(() => {
+  //     if (!containerRef.current) return;
+  //     containerRef.current.style.visibility = "visible";
+  //     const { words } = splitText(titleRef.current!);
+  //     animate(
+  //       words,
+  //       { opacity: [0, 1], y: [20, 0] },
+  //       {
+  //         type: "spring",
+  //         duration: 3,
+  //         bounce: 0.5,
+  //         delay: stagger(0.05),
+  //       }
+  //     );
+  //   });
+  // }, [isInView]);
 
   return (
     <motion.div
