@@ -12,7 +12,7 @@ export default function Home() {
     <main className="min-h-screen max-w-screen overflow-hidden">
       {/* <Navbar /> */}
       <Hero />
-      {/* <About /> */}
+      <About />
       <Tools />
       <Clients />
       <Devices />
