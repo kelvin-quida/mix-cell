@@ -7,12 +7,12 @@ export default function Devices() {
 
   return (
     <section className="py-16 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold mb-12">
           Quais dispositivos consertamos?
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Celulares */}
           <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition">
             <div className="text-5xl mb-4">📱</div>
@@ -23,7 +23,7 @@ export default function Devices() {
               <li>✅ Reparo de placa</li>
               <li>✅ Problemas de software</li>
             </ul>
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">
+            <button className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
               Solicitar orçamento
             </button>
           </div>
@@ -38,7 +38,7 @@ export default function Devices() {
               <li>✅ Sistema lento</li>
               <li>✅ Botões e sensores</li>
             </ul>
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">
+            <button className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
               Solicitar orçamento
             </button>
           </div>
@@ -53,7 +53,7 @@ export default function Devices() {
               <li>✅ Upgrade de SSD</li>
               <li>✅ Reparo de fonte</li>
             </ul>
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">
+            <button className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
               Solicitar orçamento
             </button>
           </div>

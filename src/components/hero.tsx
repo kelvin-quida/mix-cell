@@ -6,12 +6,13 @@ export default function Hero() {
   return (
     <div className="relative h-screen">
       <Image
-        src="/bg-images.png"
+        src="/oi.png"
         alt="Background"
         layout="fill"
         objectFit="cover"
         objectPosition="center"
         className="-z-10 h-"
+        quality={100}
       />
       <div className="h-full">
         <Navbar />
@@ -19,12 +20,14 @@ export default function Hero() {
           <section className="mx-auto px-6 py-6 flex flex-col md:flex-row items-center gap-8 mt-16">
             <div className="flex justify-between mx-auto text-center md:text-left gap-44 items-center">
               <div className="flex flex-col gap-3">
-                <p className="">Bem-vindo à</p>
-                <h1 className="max-md:text-4xl text-6xl font-bold uppercase">
+                <p className="text-white">Bem-vindo à</p>
+                <h1 className="max-md:text-4xl text-6xl font-bold uppercase text-white">
                   Mix Celulares
                 </h1>
-                <p className="text-lg">Especialista em todas as Marcas</p>
-                <button className="bg-green-500 text-white px-6 py-3 rounded-full">
+                <p className="text-lg text-white">
+                  Especialista em todas as Marcas
+                </p>
+                <button className="bg-green-500 text-white px-6 py-3 rounded-full w-full mx-auto">
                   Whatsapp
                 </button>
               </div>

@@ -12,11 +12,10 @@ export default function Home() {
     <main className="min-h-screen max-w-screen overflow-hidden">
       {/* <Navbar /> */}
       <Hero />
-      <About />
+      {/* <About /> */}
       <Tools />
       <Clients />
       <Devices />
-      <div className="max-w-6xl mx-auto px-6"></div>
       <Footer />
     </main>
   );

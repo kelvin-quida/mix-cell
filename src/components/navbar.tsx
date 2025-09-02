@@ -11,16 +11,22 @@ export default function Navbar() {
       </div>
       <ul className="hidden md:flex gap-6 font-medium ">
         <li>
-          <Link href="#servicos">Serviços</Link>
+          <Link href="#servicos" className="text-white">
+            Serviços
+          </Link>
         </li>
         <li>
-          <Link href="#feedback">Feedbacks</Link>
+          <Link href="#feedback" className="text-white">
+            Feedbacks
+          </Link>
         </li>
         <li>
-          <Link href="#about">Sobre nos</Link>
+          <Link href="#about" className="text-white">
+            Sobre nos
+          </Link>
         </li>
       </ul>
-      <button className="bg-transparent text-black px-4 py-2 rounded-full border border-black hover:bg-black hover:text-white transition-colors">
+      <button className="bg-transparent text-white px-4 py-2 rounded-full border border-white hover:bg-white hover:text-white transition-colors">
         Orçamento grátis
       </button>
     </nav>

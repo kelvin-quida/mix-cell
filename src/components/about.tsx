@@ -67,7 +67,7 @@ export default function About() {
           }}
           className="text-2xl font-bold mb-4"
         >
-          Um pouco Sobre nós{" "}
+          Um pouco sobre nós{" "}
         </motion.h2>
         <motion.p
           className="mb-4"

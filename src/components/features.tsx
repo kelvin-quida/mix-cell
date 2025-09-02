@@ -6,30 +6,66 @@ export default function Features() {
   ];
 
   return (
-    <section
-      className="max-w-6xl mx-auto rounded-xl shadow-lg p-8 md:p-10"
-      style={{
-        background: "linear-gradient(135deg, #4a3826, #1b140e)",
-        color: "#e6d5b8",
-      }}
-    >
-      <div className="grid md:grid-cols-2 gap-8 items-center">
-        {/* Coluna da Esquerda com o Texto Principal */}
-        <div className="text-left">
-          <h2 className="text-4xl font-serif">Entrega rápida e prática</h2>
+    <>
+      <section className="grid grid-cols-2 lg:grid-cols-5 gap-4 md:gap-11 w-full mx-auto md:mt-10">
+        <div
+          className="bg-white p-4 rounded-2xl shadow hover:shadow-lg flex flex-col items-center 
+                  transition-transform duration-300 ease-out hover:scale-105 active:scale-95"
+        >
+          <span className="text-green-500 text-3xl">📱</span>
+          <p className="mt-2 font-semibold">Troca de Tela</p>
         </div>
 
-        {/* Coluna da Direita com os Ícones */}
-        <div className="grid grid-cols-3 gap-6 text-center">
-          {items.map((item, i) => (
-            <div key={i} className="flex flex-col items-center">
-              {/* Ajuste o tamanho do ícone conforme necessário */}
-              <div className="text-4xl mb-3 opacity-80">{item.icon}</div>
-              <p className="text-sm opacity-90">{item.text}</p>
-            </div>
-          ))}
+        <div
+          className="bg-white p-4 rounded-2xl shadow hover:shadow-lg flex flex-col items-center 
+                  transition-transform duration-300 ease-out hover:scale-105 active:scale-95"
+        >
+          <span className="text-purple-500 text-3xl">🔋</span>
+          <p className="mt-2 font-semibold">Bateria Nova</p>
         </div>
-      </div>
-    </section>
+
+        <div
+          className="bg-white p-4 rounded-2xl shadow hover:shadow-lg flex flex-col items-center 
+                  transition-transform duration-300 ease-out hover:scale-105 active:scale-95"
+        >
+          <span className="text-blue-500 text-3xl">⚡</span>
+          <p className="mt-2 font-semibold">Entrada de Carga</p>
+        </div>
+
+        <div
+          className="bg-white p-4 rounded-2xl shadow hover:shadow-lg flex flex-col items-center 
+                  transition-transform duration-300 ease-out hover:scale-105 active:scale-95"
+        >
+          <span className="text-blue-400 text-3xl">💧</span>
+          <p className="mt-2 font-semibold">Celular Molhado</p>
+        </div>
+
+        <div
+          className="bg-white p-4 rounded-2xl shadow hover:shadow-lg md:flex flex-col items-center hidden 
+                  transition-transform duration-300 ease-out hover:scale-105 active:scale-95"
+        >
+          <span className="text-red-500 text-3xl">🛠️</span>
+          <p className="mt-2 font-semibold">Outros Serviços</p>
+        </div>
+      </section>
+
+      {/* <section className="bg-gray-50 p-6 rounded-2xl max-w-xl w-full">
+        <h2 className="text-xl font-bold mb-4">Entrega rápida e prática</h2>
+        <div className="grid grid-cols-3 gap-4">
+          <div className="flex flex-col items-center">
+            <span className="text-green-500 text-2xl">⏱️</span>
+            <p className="text-sm mt-2">Conserto Rápido até 1h</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <span className="text-green-500 text-2xl">⚙️</span>
+            <p className="text-sm mt-2">Peças Originais</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <span className="text-green-500 text-2xl">🛡️</span>
+            <p className="text-sm mt-2">Garantia Estendida</p>
+          </div>
+        </div>
+      </section> */}
+    </>
   );
 }
